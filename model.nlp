@@ -1,0 +1,3560 @@
+{
+  "settings": {
+    "languages": [
+      "zh"
+    ],
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "calculateSentiment": true,
+    "nlu": {
+      "useNoneFeature": false
+    }
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager",
+      "useNoneFeature": false
+    },
+    "locales": [
+      "zh"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "zh": {
+        "settings": {
+          "locale": "zh",
+          "useNoneFeature": false,
+          "trainByDomain": false,
+          "tag": "domain-manager-zh",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "bang1,zhu4": {
+            "intent": "使用說明書",
+            "domain": "default"
+          },
+          "jiao1,jiao4,wo3": {
+            "intent": "使用說明書",
+            "domain": "default"
+          },
+          "an1,zao3": {
+            "intent": "招呼-早安",
+            "domain": "default"
+          },
+          "an1,wu3": {
+            "intent": "招呼-午安",
+            "domain": "default"
+          },
+          "an1,wan3": {
+            "intent": "招呼-晚安",
+            "domain": "default"
+          },
+          "hai1": {
+            "intent": "招呼-日常",
+            "domain": "default"
+          },
+          "hao3,hao4,ni3": {
+            "intent": "招呼-日常",
+            "domain": "default"
+          },
+          "hao3,ni3": {
+            "intent": "招呼-日常",
+            "domain": "default"
+          },
+          "ni3,shei2,shi4": {
+            "intent": "詢問-我-身分",
+            "domain": "default"
+          },
+          "de5,hai2,nan2,ni3,nu:3,shi4,shi5": {
+            "intent": "詢問-我-性別",
+            "domain": "default"
+          },
+          "bie2,ni3,shi4,xing4": {
+            "intent": "詢問-我-性別",
+            "domain": "default"
+          },
+          "ji3,ni3,sui4": {
+            "intent": "詢問-我-年齡",
+            "domain": "default"
+          },
+          "li3,na3,ni3,zhu4": {
+            "intent": "詢問-我-位置",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ni3,zai4,zhu4": {
+            "intent": "詢問-我-位置",
+            "domain": "default"
+          },
+          "li3,na3,ni3,zai4,zhu4": {
+            "intent": "詢問-我-位置",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ni3,zhu4": {
+            "intent": "詢問-我-位置",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ni3,ri4,sheng1,shi4,tian1": {
+            "intent": "詢問-我-生日",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ni3,ri4,sheng1,shi4,tian1,yi1": {
+            "intent": "詢問-我-生日",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ni3,ri4,sheng1,tian1": {
+            "intent": "詢問-我-生日",
+            "domain": "default"
+          },
+          "hao2,hao4,ji1,ji3,ni3,ri4,sheng1": {
+            "intent": "詢問-我-生日",
+            "domain": "default"
+          },
+          "fen4,ni3,shen1,shi4": {
+            "intent": "詢問-我-身分",
+            "domain": "default"
+          },
+          "huan5,me5,ni3,shen2,xi3": {
+            "intent": "詢問-我-愛好",
+            "domain": "default"
+          },
+          "huan5,me5,ni3,shen2,xi3,zuo4": {
+            "intent": "詢問-我-愛好",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,zai4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "ma2,ma5,me5,ni3,shen2,shen4,zai4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,zai4,zheng4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "ma2,ma5,me5,ni3,shen2,shen4,zai4,zheng4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "gan4,ma2,ni3,zai4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "gan4,ma2,ni3,xian4,zai4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,xian4,zai4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "ma2,ma5,me5,ni3,shen2,shen4,xian4,zai4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,xian4,zai4,zheng4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "ma2,ma5,me5,ni3,shen2,shen4,xian4,zai4,zheng4,zuo4": {
+            "intent": "詢問-我-事情",
+            "domain": "default"
+          },
+          "jiao4,ni3,sha2": {
+            "intent": "詢問-我-名字",
+            "domain": "default"
+          },
+          "?,ni3,nu:3,sheng1,shi4": {
+            "intent": "詢問-我-性別",
+            "domain": "default"
+          },
+          "?,nan2,ni3,sheng1,shi4": {
+            "intent": "詢問-我-性別",
+            "domain": "default"
+          },
+          "?,ni3,shei2,shi4": {
+            "intent": "詢問-我-身分",
+            "domain": "default"
+          },
+          "jiao4,wo3,zuo4": {
+            "intent": "告訴-自己-名字",
+            "domain": "default"
+          },
+          "jiao4,wo3": {
+            "intent": "告訴-自己-名字",
+            "domain": "default"
+          },
+          "de5,nan2,shi4,wo3": {
+            "intent": "告訴-自己-性別",
+            "domain": "default"
+          },
+          "nan2,sheng1,shi4,wo3": {
+            "intent": "告訴-自己-性別",
+            "domain": "default"
+          },
+          "de5,nu:3,shi4,wo3": {
+            "intent": "告訴-自己-性別",
+            "domain": "default"
+          },
+          "nu:3,sheng1,shi4,wo3": {
+            "intent": "告訴-自己-性別",
+            "domain": "default"
+          },
+          "jin1,nian2,sui4,wo3": {
+            "intent": "告訴-自己-年齡",
+            "domain": "default"
+          },
+          "sui4,wo3": {
+            "intent": "告訴-自己-年齡",
+            "domain": "default"
+          },
+          "wo3,zai4,zhu4": {
+            "intent": "告訴-自己-位置",
+            "domain": "default"
+          },
+          "wo3,zai4": {
+            "intent": "告訴-自己-位置",
+            "domain": "default"
+          },
+          "ri4,sheng1,shi4,wo3": {
+            "intent": "告訴-自己-生日",
+            "domain": "default"
+          },
+          "shi4,wo3": {
+            "intent": "告訴-自己-身分",
+            "domain": "default"
+          },
+          "huan5,wo3,xi3": {
+            "intent": "告訴-自己-愛好",
+            "domain": "default"
+          },
+          "huan5,wo3,xi3,zuo4": {
+            "intent": "告訴-自己-愛好",
+            "domain": "default"
+          },
+          "wo3,zai4,zuo4": {
+            "intent": "告訴-自己-事情",
+            "domain": "default"
+          },
+          "wo3,zai4,zheng4,zuo4": {
+            "intent": "告訴-自己-事情",
+            "domain": "default"
+          },
+          "wo3,zai4,zheng4": {
+            "intent": "告訴-自己-事情",
+            "domain": "default"
+          },
+          "shei2,shi4,wo3": {
+            "intent": "詢問-自己-名字",
+            "domain": "default"
+          },
+          "ma3,ma5,nan2,sheng1,shi4,wo3": {
+            "intent": "詢問-自己-性別",
+            "domain": "default"
+          },
+          "ma3,ma5,nu:3,sheng1,shi4,wo3": {
+            "intent": "詢問-自己-性別",
+            "domain": "default"
+          },
+          "ji3,jin1,sui4,tian1,wo3": {
+            "intent": "詢問-自己-年齡",
+            "domain": "default"
+          },
+          "na3,na5,nei3,wo3,zai4": {
+            "intent": "詢問-自己-位置",
+            "domain": "default"
+          },
+          "hou5,me5,ri4,shen2,sheng1,shi2,wo3": {
+            "intent": "詢問-自己-生日",
+            "domain": "default"
+          },
+          "hao2,hao4,ji1,ji3,ri4,sheng1,shi4,wo3": {
+            "intent": "詢問-自己-生日",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ri4,sheng1,shi4,tian1,wo3": {
+            "intent": "詢問-自己-生日",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ri4,sheng1,shi4,tian1,wo3,yi1": {
+            "intent": "詢問-自己-生日",
+            "domain": "default"
+          },
+          "huan5,me5,shen2,wo3,xi3": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "ai4,hao4,me5,shen2,shi4,wo3": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "huan5,me5,shen2,wo3,xi3,zuo4": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "me5,shen2,wo3,zai4,zheng4,zuo4": {
+            "intent": "詢問-自己-事情",
+            "domain": "default"
+          },
+          "huan5,ma2,ma5,me5,shen2,shen4,wo3,xi3": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "ai4,hao4,ma2,ma5,me5,shen2,shen4,shi4,wo3": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "huan5,ma2,ma5,me5,shen2,shen4,wo3,xi3,zuo4": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "ma2,ma5,me5,shen2,shen4,wo3,zai4,zheng4,zuo4": {
+            "intent": "詢問-自己-事情",
+            "domain": "default"
+          },
+          "huan5,sha2,wo3,xi3": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "ai4,hao4,sha2,shi4,wo3": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "huan5,sha2,wo3,xi3,zuo4": {
+            "intent": "詢問-自己-愛好",
+            "domain": "default"
+          },
+          "sha2,wo3,zai4,zheng4,zuo4": {
+            "intent": "詢問-自己-事情",
+            "domain": "default"
+          },
+          "jiao4,me5,shen2,wo3,zuo4": {
+            "intent": "詢問-自己-名字",
+            "domain": "default"
+          },
+          "jiao4,sha2,wo3": {
+            "intent": "詢問-自己-名字",
+            "domain": "default"
+          },
+          "jiao4,ma2,ma5,me5,shen2,shen4,wo3,zuo4": {
+            "intent": "詢問-自己-名字",
+            "domain": "default"
+          },
+          "li3,na3,wo3,zai4": {
+            "intent": "詢問-自己-位置",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "使用說明書": "default",
+          "招呼-早安": "default",
+          "招呼-午安": "default",
+          "招呼-晚安": "default",
+          "招呼-日常": "default",
+          "詢問-我-名字": "default",
+          "詢問-我-性別": "default",
+          "詢問-我-年齡": "default",
+          "詢問-我-位置": "default",
+          "詢問-我-生日": "default",
+          "詢問-我-身分": "default",
+          "詢問-我-愛好": "default",
+          "詢問-我-事情": "default",
+          "告訴-自己-名字": "default",
+          "告訴-自己-性別": "default",
+          "告訴-自己-年齡": "default",
+          "告訴-自己-位置": "default",
+          "告訴-自己-生日": "default",
+          "告訴-自己-身分": "default",
+          "告訴-自己-愛好": "default",
+          "告訴-自己-事情": "default",
+          "詢問-自己-名字": "default",
+          "詢問-自己-性別": "default",
+          "詢問-自己-年齡": "default",
+          "詢問-自己-位置": "default",
+          "詢問-自己-生日": "default",
+          "詢問-自己-身分": "default",
+          "詢問-自己-愛好": "default",
+          "詢問-自己-事情": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "幫助",
+            "intent": "使用說明書"
+          },
+          {
+            "domain": "default",
+            "utterance": "教我",
+            "intent": "使用說明書"
+          },
+          {
+            "domain": "default",
+            "utterance": "早安",
+            "intent": "招呼-早安"
+          },
+          {
+            "domain": "default",
+            "utterance": "午安",
+            "intent": "招呼-午安"
+          },
+          {
+            "domain": "default",
+            "utterance": "晚安",
+            "intent": "招呼-晚安"
+          },
+          {
+            "domain": "default",
+            "utterance": "嗨",
+            "intent": "招呼-日常"
+          },
+          {
+            "domain": "default",
+            "utterance": "妳好",
+            "intent": "招呼-日常"
+          },
+          {
+            "domain": "default",
+            "utterance": "你好",
+            "intent": "招呼-日常"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰",
+            "intent": "詢問-我-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是男的還是女的",
+            "intent": "詢問-我-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的性別是",
+            "intent": "詢問-我-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "你幾歲",
+            "intent": "詢問-我-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "你住哪裡",
+            "intent": "詢問-我-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "你住在哪",
+            "intent": "詢問-我-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "你住在哪裡",
+            "intent": "詢問-我-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "你住哪",
+            "intent": "詢問-我-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "你生日是哪天",
+            "intent": "詢問-我-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "你生日是哪一天",
+            "intent": "詢問-我-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "你生日哪天",
+            "intent": "詢問-我-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "你生日幾號",
+            "intent": "詢問-我-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的生日是哪一天",
+            "intent": "詢問-我-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的身分是",
+            "intent": "詢問-我-身分"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰",
+            "intent": "詢問-我-身分"
+          },
+          {
+            "domain": "default",
+            "utterance": "你喜歡什麼",
+            "intent": "詢問-我-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "你喜歡做什麼",
+            "intent": "詢問-我-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "你在做什麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你在做甚麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你正在做什麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你正在做甚麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你在幹嘛",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你現在在幹嘛",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你現在在做什麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你現在在做甚麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你現在正在做什麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你現在正在做甚麼",
+            "intent": "詢問-我-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "你叫啥",
+            "intent": "詢問-我-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是女生?",
+            "intent": "詢問-我-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是男生?",
+            "intent": "詢問-我-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰?",
+            "intent": "詢問-我-身分"
+          },
+          {
+            "domain": "default",
+            "utterance": "我叫做",
+            "intent": "告訴-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "叫我",
+            "intent": "告訴-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "叫我",
+            "intent": "告訴-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是男的",
+            "intent": "告訴-自己-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是男生",
+            "intent": "告訴-自己-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是女的",
+            "intent": "告訴-自己-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是女生",
+            "intent": "告訴-自己-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "我今年 歲",
+            "intent": "告訴-自己-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "我 歲",
+            "intent": "告訴-自己-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "我今年 歲了",
+            "intent": "告訴-自己-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "我今年 歲",
+            "intent": "告訴-自己-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "我 歲",
+            "intent": "告訴-自己-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "我今年 歲了",
+            "intent": "告訴-自己-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "我住在",
+            "intent": "告訴-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在",
+            "intent": "告訴-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我生日是",
+            "intent": "告訴-自己-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "我的生日是",
+            "intent": "告訴-自己-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是",
+            "intent": "告訴-自己-身分"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡",
+            "intent": "告訴-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡做",
+            "intent": "告訴-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在做",
+            "intent": "告訴-自己-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "我正在做",
+            "intent": "告訴-自己-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在",
+            "intent": "告訴-自己-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "我正在",
+            "intent": "告訴-自己-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是誰",
+            "intent": "詢問-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是男生嗎",
+            "intent": "詢問-自己-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是女生嗎",
+            "intent": "詢問-自己-性別"
+          },
+          {
+            "domain": "default",
+            "utterance": "我今天幾歲",
+            "intent": "詢問-自己-年齡"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在哪",
+            "intent": "詢問-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我什麼時候生日",
+            "intent": "詢問-自己-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "我生日是幾號",
+            "intent": "詢問-自己-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "我生日是哪天",
+            "intent": "詢問-自己-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "我生日是哪一天",
+            "intent": "詢問-自己-生日"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是誰",
+            "intent": "詢問-自己-身分"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡什麼",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我的愛好是什麼",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡做什麼",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我正在做什麼",
+            "intent": "詢問-自己-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡甚麼",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我的愛好是甚麼",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡做甚麼",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我正在做甚麼",
+            "intent": "詢問-自己-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡啥",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我的愛好是啥",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我喜歡做啥",
+            "intent": "詢問-自己-愛好"
+          },
+          {
+            "domain": "default",
+            "utterance": "我正在做啥",
+            "intent": "詢問-自己-事情"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是誰",
+            "intent": "詢問-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "我叫做什麼",
+            "intent": "詢問-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "我叫啥",
+            "intent": "詢問-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "我叫做甚麼",
+            "intent": "詢問-自己-名字"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在",
+            "intent": "告訴-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在",
+            "intent": "告訴-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在",
+            "intent": "告訴-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在哪裡",
+            "intent": "詢問-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在",
+            "intent": "告訴-自己-位置"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在",
+            "intent": "告訴-自己-位置"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "zh",
+              "tag": "nlu-zh",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "bang1": 1,
+              "zhu4": 1,
+              "jiao4": 1,
+              "jiao1": 1,
+              "wo3": 1,
+              "zao3": 1,
+              "an1": 1,
+              "wu3": 1,
+              "wan3": 1,
+              "hai1": 1,
+              "ni3": 1,
+              "hao3": 1,
+              "hao4": 1,
+              "shi4": 1,
+              "shei2": 1,
+              "nan2": 1,
+              "de5": 1,
+              "hai2": 1,
+              "shi5": 1,
+              "nu:3": 1,
+              "xing4": 1,
+              "bie2": 1,
+              "ji3": 1,
+              "sui4": 1,
+              "na3": 1,
+              "li3": 1,
+              "zai4": 1,
+              "na5": 1,
+              "nei3": 1,
+              "sheng1": 1,
+              "ri4": 1,
+              "tian1": 1,
+              "yi1": 1,
+              "ji1": 1,
+              "hao2": 1,
+              "shen1": 1,
+              "fen4": 1,
+              "xi3": 1,
+              "huan5": 1,
+              "shen2": 1,
+              "me5": 1,
+              "zuo4": 1,
+              "shen4": 1,
+              "ma2": 1,
+              "ma5": 1,
+              "zheng4": 1,
+              "gan4": 1,
+              "xian4": 1,
+              "sha2": 1,
+              "?": 1,
+              "jin1": 1,
+              "nian2": 1,
+              "ma3": 1,
+              "shi2": 1,
+              "hou5": 1,
+              "ai4": 1
+            },
+            "intents": {
+              "使用說明書": 1,
+              "招呼-早安": 1,
+              "招呼-午安": 1,
+              "招呼-晚安": 1,
+              "招呼-日常": 1,
+              "詢問-我-名字": 1,
+              "詢問-我-性別": 1,
+              "詢問-我-年齡": 1,
+              "詢問-我-位置": 1,
+              "詢問-我-生日": 1,
+              "詢問-我-身分": 1,
+              "詢問-我-愛好": 1,
+              "詢問-我-事情": 1,
+              "告訴-自己-名字": 1,
+              "告訴-自己-性別": 1,
+              "告訴-自己-年齡": 1,
+              "告訴-自己-位置": 1,
+              "告訴-自己-生日": 1,
+              "告訴-自己-身分": 1,
+              "告訴-自己-愛好": 1,
+              "告訴-自己-事情": 1,
+              "詢問-自己-名字": 1,
+              "詢問-自己-性別": 1,
+              "詢問-自己-年齡": 1,
+              "詢問-自己-位置": 1,
+              "詢問-自己-生日": 1,
+              "詢問-自己-身分": 1,
+              "詢問-自己-愛好": 1,
+              "詢問-自己-事情": 1
+            },
+            "intentFeatures": {
+              "使用說明書": {
+                "bang1": 1,
+                "zhu4": 1,
+                "jiao4": 1,
+                "jiao1": 1,
+                "wo3": 1
+              },
+              "招呼-早安": {
+                "zao3": 1,
+                "an1": 1
+              },
+              "招呼-午安": {
+                "wu3": 1,
+                "an1": 1
+              },
+              "招呼-晚安": {
+                "wan3": 1,
+                "an1": 1
+              },
+              "招呼-日常": {
+                "hai1": 1,
+                "ni3": 1,
+                "hao3": 1,
+                "hao4": 1
+              },
+              "詢問-我-名字": {
+                "ni3": 1,
+                "shi4": 1,
+                "shei2": 1,
+                "jiao4": 1,
+                "sha2": 1
+              },
+              "詢問-我-性別": {
+                "ni3": 1,
+                "shi4": 1,
+                "nan2": 1,
+                "de5": 1,
+                "hai2": 1,
+                "shi5": 1,
+                "nu:3": 1,
+                "xing4": 1,
+                "bie2": 1,
+                "sheng1": 1,
+                "?": 1
+              },
+              "詢問-我-年齡": {
+                "ni3": 1,
+                "ji3": 1,
+                "sui4": 1
+              },
+              "詢問-我-位置": {
+                "ni3": 1,
+                "zhu4": 1,
+                "na3": 1,
+                "li3": 1,
+                "zai4": 1,
+                "na5": 1,
+                "nei3": 1
+              },
+              "詢問-我-生日": {
+                "ni3": 1,
+                "sheng1": 1,
+                "ri4": 1,
+                "shi4": 1,
+                "na3": 1,
+                "na5": 1,
+                "nei3": 1,
+                "tian1": 1,
+                "yi1": 1,
+                "ji1": 1,
+                "ji3": 1,
+                "hao2": 1,
+                "hao4": 1
+              },
+              "詢問-我-身分": {
+                "ni3": 1,
+                "shen1": 1,
+                "fen4": 1,
+                "shi4": 1,
+                "shei2": 1,
+                "?": 1
+              },
+              "詢問-我-愛好": {
+                "ni3": 1,
+                "xi3": 1,
+                "huan5": 1,
+                "shen2": 1,
+                "me5": 1,
+                "zuo4": 1
+              },
+              "詢問-我-事情": {
+                "ni3": 1,
+                "zai4": 1,
+                "zuo4": 1,
+                "shen2": 1,
+                "me5": 1,
+                "shen4": 1,
+                "ma2": 1,
+                "ma5": 1,
+                "zheng4": 1,
+                "gan4": 1,
+                "xian4": 1
+              },
+              "告訴-自己-名字": {
+                "wo3": 1,
+                "jiao4": 1,
+                "zuo4": 1
+              },
+              "告訴-自己-性別": {
+                "wo3": 1,
+                "shi4": 1,
+                "nan2": 1,
+                "de5": 1,
+                "sheng1": 1,
+                "nu:3": 1
+              },
+              "告訴-自己-年齡": {
+                "wo3": 1,
+                "jin1": 1,
+                "nian2": 1,
+                "sui4": 1
+              },
+              "告訴-自己-位置": {
+                "wo3": 1,
+                "zhu4": 1,
+                "zai4": 1
+              },
+              "告訴-自己-生日": {
+                "wo3": 1,
+                "sheng1": 1,
+                "ri4": 1,
+                "shi4": 1
+              },
+              "告訴-自己-身分": {
+                "wo3": 1,
+                "shi4": 1
+              },
+              "告訴-自己-愛好": {
+                "wo3": 1,
+                "xi3": 1,
+                "huan5": 1,
+                "zuo4": 1
+              },
+              "告訴-自己-事情": {
+                "wo3": 1,
+                "zai4": 1,
+                "zuo4": 1,
+                "zheng4": 1
+              },
+              "詢問-自己-名字": {
+                "wo3": 1,
+                "shi4": 1,
+                "shei2": 1,
+                "jiao4": 1,
+                "zuo4": 1,
+                "shen2": 1,
+                "me5": 1,
+                "sha2": 1,
+                "shen4": 1,
+                "ma2": 1,
+                "ma5": 1
+              },
+              "詢問-自己-性別": {
+                "wo3": 1,
+                "shi4": 1,
+                "nan2": 1,
+                "sheng1": 1,
+                "ma3": 1,
+                "ma5": 1,
+                "nu:3": 1
+              },
+              "詢問-自己-年齡": {
+                "wo3": 1,
+                "jin1": 1,
+                "tian1": 1,
+                "ji3": 1,
+                "sui4": 1
+              },
+              "詢問-自己-位置": {
+                "wo3": 1,
+                "zai4": 1,
+                "na3": 1,
+                "na5": 1,
+                "nei3": 1,
+                "li3": 1
+              },
+              "詢問-自己-生日": {
+                "wo3": 1,
+                "shen2": 1,
+                "me5": 1,
+                "shi2": 1,
+                "hou5": 1,
+                "sheng1": 1,
+                "ri4": 1,
+                "shi4": 1,
+                "ji1": 1,
+                "ji3": 1,
+                "hao2": 1,
+                "hao4": 1,
+                "na3": 1,
+                "na5": 1,
+                "nei3": 1,
+                "tian1": 1,
+                "yi1": 1
+              },
+              "詢問-自己-身分": {
+                "wo3": 1,
+                "shi4": 1,
+                "shei2": 1
+              },
+              "詢問-自己-愛好": {
+                "wo3": 1,
+                "xi3": 1,
+                "huan5": 1,
+                "shen2": 1,
+                "me5": 1,
+                "ai4": 1,
+                "hao4": 1,
+                "shi4": 1,
+                "zuo4": 1,
+                "shen4": 1,
+                "ma2": 1,
+                "ma5": 1,
+                "sha2": 1
+              },
+              "詢問-自己-事情": {
+                "wo3": 1,
+                "zheng4": 1,
+                "zai4": 1,
+                "zuo4": 1,
+                "shen2": 1,
+                "me5": 1,
+                "shen4": 1,
+                "ma2": 1,
+                "ma5": 1,
+                "sha2": 1
+              }
+            },
+            "featuresToIntent": {
+              "bang1": [
+                "使用說明書"
+              ],
+              "zhu4": [
+                "使用說明書",
+                "詢問-我-位置",
+                "告訴-自己-位置"
+              ],
+              "jiao4": [
+                "使用說明書",
+                "詢問-我-名字",
+                "告訴-自己-名字",
+                "詢問-自己-名字"
+              ],
+              "jiao1": [
+                "使用說明書"
+              ],
+              "wo3": [
+                "使用說明書",
+                "告訴-自己-名字",
+                "告訴-自己-性別",
+                "告訴-自己-年齡",
+                "告訴-自己-位置",
+                "告訴-自己-生日",
+                "告訴-自己-身分",
+                "告訴-自己-愛好",
+                "告訴-自己-事情",
+                "詢問-自己-名字",
+                "詢問-自己-性別",
+                "詢問-自己-年齡",
+                "詢問-自己-位置",
+                "詢問-自己-生日",
+                "詢問-自己-身分",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "zao3": [
+                "招呼-早安"
+              ],
+              "an1": [
+                "招呼-早安",
+                "招呼-午安",
+                "招呼-晚安"
+              ],
+              "wu3": [
+                "招呼-午安"
+              ],
+              "wan3": [
+                "招呼-晚安"
+              ],
+              "hai1": [
+                "招呼-日常"
+              ],
+              "ni3": [
+                "招呼-日常",
+                "詢問-我-名字",
+                "詢問-我-性別",
+                "詢問-我-年齡",
+                "詢問-我-位置",
+                "詢問-我-生日",
+                "詢問-我-身分",
+                "詢問-我-愛好",
+                "詢問-我-事情"
+              ],
+              "hao3": [
+                "招呼-日常"
+              ],
+              "hao4": [
+                "招呼-日常",
+                "詢問-我-生日",
+                "詢問-自己-生日",
+                "詢問-自己-愛好"
+              ],
+              "shi4": [
+                "詢問-我-名字",
+                "詢問-我-性別",
+                "詢問-我-生日",
+                "詢問-我-身分",
+                "告訴-自己-性別",
+                "告訴-自己-生日",
+                "告訴-自己-身分",
+                "詢問-自己-名字",
+                "詢問-自己-性別",
+                "詢問-自己-生日",
+                "詢問-自己-身分",
+                "詢問-自己-愛好"
+              ],
+              "shei2": [
+                "詢問-我-名字",
+                "詢問-我-身分",
+                "詢問-自己-名字",
+                "詢問-自己-身分"
+              ],
+              "sha2": [
+                "詢問-我-名字",
+                "詢問-自己-名字",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "nan2": [
+                "詢問-我-性別",
+                "告訴-自己-性別",
+                "詢問-自己-性別"
+              ],
+              "de5": [
+                "詢問-我-性別",
+                "告訴-自己-性別"
+              ],
+              "hai2": [
+                "詢問-我-性別"
+              ],
+              "shi5": [
+                "詢問-我-性別"
+              ],
+              "nu:3": [
+                "詢問-我-性別",
+                "告訴-自己-性別",
+                "詢問-自己-性別"
+              ],
+              "xing4": [
+                "詢問-我-性別"
+              ],
+              "bie2": [
+                "詢問-我-性別"
+              ],
+              "sheng1": [
+                "詢問-我-性別",
+                "詢問-我-生日",
+                "告訴-自己-性別",
+                "告訴-自己-生日",
+                "詢問-自己-性別",
+                "詢問-自己-生日"
+              ],
+              "?": [
+                "詢問-我-性別",
+                "詢問-我-身分"
+              ],
+              "ji3": [
+                "詢問-我-年齡",
+                "詢問-我-生日",
+                "詢問-自己-年齡",
+                "詢問-自己-生日"
+              ],
+              "sui4": [
+                "詢問-我-年齡",
+                "告訴-自己-年齡",
+                "詢問-自己-年齡"
+              ],
+              "na3": [
+                "詢問-我-位置",
+                "詢問-我-生日",
+                "詢問-自己-位置",
+                "詢問-自己-生日"
+              ],
+              "li3": [
+                "詢問-我-位置",
+                "詢問-自己-位置"
+              ],
+              "zai4": [
+                "詢問-我-位置",
+                "詢問-我-事情",
+                "告訴-自己-位置",
+                "告訴-自己-事情",
+                "詢問-自己-位置",
+                "詢問-自己-事情"
+              ],
+              "na5": [
+                "詢問-我-位置",
+                "詢問-我-生日",
+                "詢問-自己-位置",
+                "詢問-自己-生日"
+              ],
+              "nei3": [
+                "詢問-我-位置",
+                "詢問-我-生日",
+                "詢問-自己-位置",
+                "詢問-自己-生日"
+              ],
+              "ri4": [
+                "詢問-我-生日",
+                "告訴-自己-生日",
+                "詢問-自己-生日"
+              ],
+              "tian1": [
+                "詢問-我-生日",
+                "詢問-自己-年齡",
+                "詢問-自己-生日"
+              ],
+              "yi1": [
+                "詢問-我-生日",
+                "詢問-自己-生日"
+              ],
+              "ji1": [
+                "詢問-我-生日",
+                "詢問-自己-生日"
+              ],
+              "hao2": [
+                "詢問-我-生日",
+                "詢問-自己-生日"
+              ],
+              "shen1": [
+                "詢問-我-身分"
+              ],
+              "fen4": [
+                "詢問-我-身分"
+              ],
+              "xi3": [
+                "詢問-我-愛好",
+                "告訴-自己-愛好",
+                "詢問-自己-愛好"
+              ],
+              "huan5": [
+                "詢問-我-愛好",
+                "告訴-自己-愛好",
+                "詢問-自己-愛好"
+              ],
+              "shen2": [
+                "詢問-我-愛好",
+                "詢問-我-事情",
+                "詢問-自己-名字",
+                "詢問-自己-生日",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "me5": [
+                "詢問-我-愛好",
+                "詢問-我-事情",
+                "詢問-自己-名字",
+                "詢問-自己-生日",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "zuo4": [
+                "詢問-我-愛好",
+                "詢問-我-事情",
+                "告訴-自己-名字",
+                "告訴-自己-愛好",
+                "告訴-自己-事情",
+                "詢問-自己-名字",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "shen4": [
+                "詢問-我-事情",
+                "詢問-自己-名字",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "ma2": [
+                "詢問-我-事情",
+                "詢問-自己-名字",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "ma5": [
+                "詢問-我-事情",
+                "詢問-自己-名字",
+                "詢問-自己-性別",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "zheng4": [
+                "詢問-我-事情",
+                "告訴-自己-事情",
+                "詢問-自己-事情"
+              ],
+              "gan4": [
+                "詢問-我-事情"
+              ],
+              "xian4": [
+                "詢問-我-事情"
+              ],
+              "jin1": [
+                "告訴-自己-年齡",
+                "詢問-自己-年齡"
+              ],
+              "nian2": [
+                "告訴-自己-年齡"
+              ],
+              "ma3": [
+                "詢問-自己-性別"
+              ],
+              "shi2": [
+                "詢問-自己-生日"
+              ],
+              "hou5": [
+                "詢問-自己-生日"
+              ],
+              "ai4": [
+                "詢問-自己-愛好"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "useNoneFeature": false,
+                "locale": "zh",
+                "tag": "nlu-zh",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "bang1",
+                "zhu4",
+                "jiao4",
+                "jiao1",
+                "wo3",
+                "zao3",
+                "an1",
+                "wu3",
+                "wan3",
+                "hai1",
+                "ni3",
+                "hao3",
+                "hao4",
+                "shi4",
+                "shei2",
+                "nan2",
+                "de5",
+                "hai2",
+                "shi5",
+                "nu:3",
+                "xing4",
+                "bie2",
+                "ji3",
+                "sui4",
+                "na3",
+                "li3",
+                "zai4",
+                "na5",
+                "nei3",
+                "sheng1",
+                "ri4",
+                "tian1",
+                "yi1",
+                "ji1",
+                "hao2",
+                "shen1",
+                "fen4",
+                "xi3",
+                "huan5",
+                "shen2",
+                "me5",
+                "zuo4",
+                "shen4",
+                "ma2",
+                "ma5",
+                "zheng4",
+                "gan4",
+                "xian4",
+                "sha2",
+                "?",
+                "jin1",
+                "nian2",
+                "ma3",
+                "shi2",
+                "hou5",
+                "ai4"
+              ],
+              "intents": [
+                "使用說明書",
+                "招呼-早安",
+                "招呼-午安",
+                "招呼-晚安",
+                "招呼-日常",
+                "詢問-我-名字",
+                "詢問-我-性別",
+                "詢問-我-年齡",
+                "詢問-我-位置",
+                "詢問-我-生日",
+                "詢問-我-身分",
+                "詢問-我-愛好",
+                "詢問-我-事情",
+                "告訴-自己-名字",
+                "告訴-自己-性別",
+                "告訴-自己-年齡",
+                "告訴-自己-位置",
+                "告訴-自己-生日",
+                "告訴-自己-身分",
+                "告訴-自己-愛好",
+                "告訴-自己-事情",
+                "詢問-自己-名字",
+                "詢問-自己-性別",
+                "詢問-自己-年齡",
+                "詢問-自己-位置",
+                "詢問-自己-生日",
+                "詢問-自己-身分",
+                "詢問-自己-愛好",
+                "詢問-自己-事情"
+              ],
+              "perceptrons": [
+                [
+                  8.897059440612793,
+                  4.3194684982299805,
+                  1.2845032215118408,
+                  14.023672103881836,
+                  -2.260767698287964,
+                  -0.327076256275177,
+                  -0.9372501373291016,
+                  -0.3107605278491974,
+                  -0.296490341424942,
+                  -1.1300617456436157,
+                  -2.436215877532959,
+                  -0.09571520984172821,
+                  -0.053503476083278656,
+                  -0.4294072985649109,
+                  -0.028372392058372498,
+                  -0.2237483710050583,
+                  -0.19819821417331696,
+                  -0.01569315418601036,
+                  -0.01569315418601036,
+                  -0.14232560992240906,
+                  -0.012604956515133381,
+                  -0.012604956515133381,
+                  -0.022887567058205605,
+                  -0.5210950970649719,
+                  -1.793929934501648,
+                  -1.1742663383483887,
+                  -3.2283880710601807,
+                  -0.6158190369606018,
+                  -0.6158190369606018,
+                  -0.15089696645736694,
+                  -0.011836844496428967,
+                  -0.0015990359243005514,
+                  0,
+                  -0.003847545711323619,
+                  -0.003847545711323619,
+                  -0.0020652450621128082,
+                  -0.0020652450621128082,
+                  -0.14941957592964172,
+                  -0.14941957592964172,
+                  -0.29064661264419556,
+                  -0.29064661264419556,
+                  -1.6733675003051758,
+                  -0.041454847902059555,
+                  -0.04686209186911583,
+                  -0.041454847902059555,
+                  -0.02087855339050293,
+                  -0.003567537060007453,
+                  -0.001121115405112505,
+                  -1.1591087579727173,
+                  0,
+                  -0.1538160890340805,
+                  -0.1538160890340805,
+                  0,
+                  -0.003267213236540556,
+                  -0.003267213236540556,
+                  0,
+                  1.0631185916989052
+                ],
+                [
+                  -0.27965545654296875,
+                  -0.34395238757133484,
+                  -0.17314976453781128,
+                  0,
+                  -0.4852805435657501,
+                  10.535564422607422,
+                  3.102766513824463,
+                  -3.7185893058776855,
+                  -3.714951753616333,
+                  -0.6220265030860901,
+                  -0.4667975902557373,
+                  -0.15748609602451324,
+                  -0.07669521123170853,
+                  -0.1656024307012558,
+                  -0.04250054433941841,
+                  -0.04924103245139122,
+                  -0.0465526208281517,
+                  -0.013973054476082325,
+                  -0.013973054476082325,
+                  -0.03824467211961746,
+                  -0.025027330964803696,
+                  -0.025027330964803696,
+                  -0.049970854073762894,
+                  -0.15922598540782928,
+                  -0.06545663625001907,
+                  -0.030947472900152206,
+                  -0.15797318518161774,
+                  -0.030224505811929703,
+                  -0.030224505811929703,
+                  -0.045429427176713943,
+                  -0.027714092284440994,
+                  -0.007994416169822216,
+                  0,
+                  -0.009949663653969765,
+                  -0.009949663653969765,
+                  -0.012542054057121277,
+                  -0.012542054057121277,
+                  -0.07412141561508179,
+                  -0.07412141561508179,
+                  -0.039007291197776794,
+                  -0.039007291197776794,
+                  -0.06730170547962189,
+                  -0.000891881063580513,
+                  -0.026459774002432823,
+                  -0.000891881063580513,
+                  -0.011448347009718418,
+                  -0.02474289759993553,
+                  -0.007682398427277803,
+                  -0.02477145567536354,
+                  0,
+                  -0.043996766209602356,
+                  -0.043996766209602356,
+                  0,
+                  -0.006737130228430033,
+                  -0.006737130228430033,
+                  0,
+                  0.6236315719262324
+                ],
+                [
+                  -0.27743133902549744,
+                  -0.35015761852264404,
+                  -0.19370132684707642,
+                  0,
+                  -0.5359452962875366,
+                  -3.7066354751586914,
+                  3.123148202896118,
+                  10.541929244995117,
+                  -3.712195873260498,
+                  -0.5977945923805237,
+                  -0.5119665265083313,
+                  -0.16519172489643097,
+                  -0.0842166393995285,
+                  -0.1843363493680954,
+                  -0.04782860353589058,
+                  -0.05545095354318619,
+                  -0.05242663994431496,
+                  -0.01565859094262123,
+                  -0.01565859094262123,
+                  -0.04300498217344284,
+                  -0.028322512283921242,
+                  -0.028322512283921242,
+                  -0.0547289103269577,
+                  -0.175423264503479,
+                  -0.07317863404750824,
+                  -0.034921515733003616,
+                  -0.1740390509366989,
+                  -0.033144328743219376,
+                  -0.033144328743219376,
+                  -0.050443895161151886,
+                  -0.0303356871008873,
+                  -0.008047030307352543,
+                  0,
+                  -0.01124313659965992,
+                  -0.01124313659965992,
+                  -0.01249795500189066,
+                  -0.01249795500189066,
+                  -0.08061454445123672,
+                  -0.08061454445123672,
+                  -0.043153680860996246,
+                  -0.043153680860996246,
+                  -0.07606373727321625,
+                  -0.0009994753636419773,
+                  -0.02984711527824402,
+                  -0.0009994753636419773,
+                  -0.012757071293890476,
+                  -0.02792305499315262,
+                  -0.00869661197066307,
+                  -0.027316385880112648,
+                  0,
+                  -0.04967271164059639,
+                  -0.04967271164059639,
+                  0,
+                  -0.006808204110711813,
+                  -0.006808204110711813,
+                  0,
+                  0.5979967161419169
+                ],
+                [
+                  -0.28573277592658997,
+                  -0.3671736717224121,
+                  -0.2151678055524826,
+                  0,
+                  -0.5907188057899475,
+                  -3.701871395111084,
+                  3.150333881378174,
+                  -3.697767734527588,
+                  10.550793647766113,
+                  -0.5752081274986267,
+                  -0.5658499598503113,
+                  -0.17895342409610748,
+                  -0.09417654573917389,
+                  -0.20465326309204102,
+                  -0.054395027458667755,
+                  -0.061021897941827774,
+                  -0.057733308523893356,
+                  -0.01712758094072342,
+                  -0.01712758094072342,
+                  -0.04941556975245476,
+                  -0.0318138562142849,
+                  -0.0318138562142849,
+                  -0.06129259616136551,
+                  -0.19235903024673462,
+                  -0.08199290931224823,
+                  -0.03890438377857208,
+                  -0.1917009949684143,
+                  -0.03716812655329704,
+                  -0.03716812655329704,
+                  -0.056638628244400024,
+                  -0.03406016156077385,
+                  -0.009196248836815357,
+                  0,
+                  -0.012616325169801712,
+                  -0.012616325169801712,
+                  -0.013821355998516083,
+                  -0.013821355998516083,
+                  -0.08760833740234375,
+                  -0.08760833740234375,
+                  -0.047719649970531464,
+                  -0.047719649970531464,
+                  -0.08499486744403839,
+                  -0.0010932645527645946,
+                  -0.03330270200967789,
+                  -0.0010932645527645946,
+                  -0.014238286763429642,
+                  -0.031197940930724144,
+                  -0.009747549891471863,
+                  -0.02903185971081257,
+                  0,
+                  -0.05714572221040726,
+                  -0.05714572221040726,
+                  0,
+                  -0.0073333666659891605,
+                  -0.0073333666659891605,
+                  0,
+                  0.5622848063415395
+                ],
+                [
+                  -1.0743544101715088,
+                  -2.1926679611206055,
+                  -2.0327048301696777,
+                  -0.03386244550347328,
+                  -1.5567437410354614,
+                  -0.8188401460647583,
+                  -2.452180862426758,
+                  -0.8173582553863525,
+                  -0.8156775236129761,
+                  11.010445594787598,
+                  0.6172714829444885,
+                  10.163640975952148,
+                  0.4078856408596039,
+                  -2.8610291481018066,
+                  -1.0256288051605225,
+                  -0.3275493085384369,
+                  -0.3275493085384369,
+                  -0.3275493085384369,
+                  -0.3275493085384369,
+                  -0.3275493085384369,
+                  -0.5248786211013794,
+                  -0.5248786211013794,
+                  -2.1540982723236084,
+                  -1.725689172744751,
+                  -1.2353312969207764,
+                  -0.7544695138931274,
+                  -1.715815782546997,
+                  -0.46980440616607666,
+                  -0.46980440616607666,
+                  -1.0938656330108643,
+                  -1.0938656330108643,
+                  -0.10183682292699814,
+                  0,
+                  -0.9643862843513489,
+                  -0.9643862843513489,
+                  -0.5139814615249634,
+                  -0.5139814615249634,
+                  -0.8906026482582092,
+                  -0.8906026482582092,
+                  -1.0532320737838745,
+                  -1.0532320737838745,
+                  -0.39911603927612305,
+                  -0.0143362358212471,
+                  -1.0951842069625854,
+                  -0.0143362358212471,
+                  -0.01905139908194542,
+                  -1.0734597444534302,
+                  -0.28377196192741394,
+                  -1.8455383777618408,
+                  -0.006478824652731419,
+                  -0.08808033168315887,
+                  -0.08808033168315887,
+                  0,
+                  0,
+                  0,
+                  -0.3144846260547638,
+                  3.271725025129924
+                ],
+                [
+                  -0.003301275195553899,
+                  -1.3225613832473755,
+                  5.208073139190674,
+                  -0.04659019410610199,
+                  -8.866572380065918,
+                  -0.003428338561207056,
+                  -0.013516762293875217,
+                  -0.0031409328803420067,
+                  -0.00280576990917325,
+                  -0.0030353728216141462,
+                  4.989382266998291,
+                  -2.9311861991882324,
+                  -0.7421163320541382,
+                  -0.7284014821052551,
+                  3.979966163635254,
+                  -0.7498598694801331,
+                  -0.5441912412643433,
+                  -0.5441912412643433,
+                  -0.5441912412643433,
+                  -0.7546870708465576,
+                  -1.702224850654602,
+                  -1.702224850654602,
+                  -1.9608665704727173,
+                  -1.8796467781066895,
+                  -1.548818826675415,
+                  -1.0158544778823853,
+                  -1.2604255676269531,
+                  -0.5322022438049316,
+                  -0.5322022438049316,
+                  -0.7412822842597961,
+                  -0.3251178562641144,
+                  -0.23209787905216217,
+                  -0.030233312398195267,
+                  -0.08662085980176926,
+                  -0.08662085980176926,
+                  -1.8015222549438477,
+                  -1.8015222549438477,
+                  -0.8855060935020447,
+                  -0.8855060935020447,
+                  -0.7628029584884644,
+                  -0.7628029584884644,
+                  -0.4184088110923767,
+                  -0.002760078990831971,
+                  -0.9406241774559021,
+                  -0.002760078990831971,
+                  -0.0672968178987503,
+                  -0.9351040720939636,
+                  -0.15270748734474182,
+                  5.778008460998535,
+                  -6.443866729736328,
+                  -0.003979449160397053,
+                  -0.003979449160397053,
+                  0,
+                  0,
+                  0,
+                  -0.12029260396957397,
+                  -1.9713031961179048
+                ],
+                [
+                  0,
+                  -0.7663061618804932,
+                  -0.8003890514373779,
+                  0,
+                  -6.847183704376221,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3.207897186279297,
+                  -1.3876506090164185,
+                  -0.9295781254768372,
+                  1.4477330446243286,
+                  -7.055076599121094,
+                  3.6793243885040283,
+                  0.31854140758514404,
+                  1.8860870599746704,
+                  1.8860870599746704,
+                  3.680765390396118,
+                  5.7244133949279785,
+                  5.7244133949279785,
+                  -1.2425932884216309,
+                  -0.6438384652137756,
+                  -1.641357183456421,
+                  -0.4362339973449707,
+                  -0.8144171237945557,
+                  -1.1435221433639526,
+                  -1.1435221433639526,
+                  3.5407726764678955,
+                  -1.6148606538772583,
+                  -0.8327387571334839,
+                  -0.26020151376724243,
+                  -0.57037353515625,
+                  -0.57037353515625,
+                  -1.625722885131836,
+                  -1.625722885131836,
+                  -0.3975614607334137,
+                  -0.3975614607334137,
+                  -0.44159868359565735,
+                  -0.44159868359565735,
+                  -0.2197955995798111,
+                  0,
+                  -0.38672691583633423,
+                  -0.5656214356422424,
+                  -0.0004173635388724506,
+                  -0.38672691583633423,
+                  -0.12329550832509995,
+                  -0.6240103840827942,
+                  4.224759578704834,
+                  0,
+                  0,
+                  -0.5656214356422424,
+                  0,
+                  0,
+                  0,
+                  -1.819818998341219
+                ],
+                [
+                  0,
+                  -0.7022201418876648,
+                  -1.0086331367492676,
+                  0,
+                  -4.948019504547119,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2.987166166305542,
+                  -1.9902759790420532,
+                  -1.6765670776367188,
+                  -1.4524333477020264,
+                  -0.5935932993888855,
+                  -0.10911252349615097,
+                  -0.10911252349615097,
+                  -0.10911252349615097,
+                  -0.10911252349615097,
+                  -0.11645220220088959,
+                  -0.2759930193424225,
+                  -0.2759930193424225,
+                  6.332374572753906,
+                  5.927016258239746,
+                  -0.8022769689559937,
+                  -0.5021637678146362,
+                  -0.8553381562232971,
+                  -0.29894721508026123,
+                  -0.29894721508026123,
+                  -1.7207937240600586,
+                  -1.7134541273117065,
+                  -3.020164728164673,
+                  -0.01478127483278513,
+                  -1.6133973598480225,
+                  -1.6133973598480225,
+                  -0.3678993284702301,
+                  -0.3678993284702301,
+                  -0.46445363759994507,
+                  -0.46445363759994507,
+                  -0.5396004915237427,
+                  -0.5396004915237427,
+                  -0.16492530703544617,
+                  -0.0073899016715586185,
+                  -0.581534743309021,
+                  -0.0073899016715586185,
+                  -0.0013362857280299067,
+                  -0.5715234279632568,
+                  -0.14526712894439697,
+                  -0.9993327260017395,
+                  -0.08784875273704529,
+                  -3.3041141033172607,
+                  -0.3728477656841278,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.9806710511959114
+                ],
+                [
+                  -3.388439416885376,
+                  5.842879772186279,
+                  -0.6048207879066467,
+                  0,
+                  -4.97970724105835,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3.459420919418335,
+                  -1.004982829093933,
+                  -0.3467412292957306,
+                  -1.8067353963851929,
+                  -0.11449044197797775,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.5071461796760559,
+                  -0.5099804401397705,
+                  4.464452266693115,
+                  2.9764623641967773,
+                  -0.0058446903713047504,
+                  1.4880064725875854,
+                  1.4880064725875854,
+                  -2.8215396404266357,
+                  -2.8215396404266357,
+                  -2.8215396404266357,
+                  -0.5451698303222656,
+                  0,
+                  0,
+                  -0.14519818127155304,
+                  -0.14519818127155304,
+                  -0.23706784844398499,
+                  -0.23706784844398499,
+                  -0.9873915910720825,
+                  -0.9873915910720825,
+                  -0.7928798198699951,
+                  -0.19251196086406708,
+                  -1.0661722421646118,
+                  -0.19251196086406708,
+                  -0.18413420021533966,
+                  -0.822100043296814,
+                  -0.26924315094947815,
+                  -0.6046295166015625,
+                  0,
+                  -0.001501555205322802,
+                  -0.001501555205322802,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -2.454435846173619
+                ],
+                [
+                  0,
+                  -2.885903835296631,
+                  -0.6810060143470764,
+                  0,
+                  -10.327512741088867,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3.889449119567871,
+                  -1.5563066005706787,
+                  0.8004838228225708,
+                  -0.38018351793289185,
+                  -0.377451092004776,
+                  -1.132917881011963,
+                  0,
+                  0,
+                  0,
+                  -1.1397552490234375,
+                  -0.12145695090293884,
+                  -0.12145695090293884,
+                  0.6753602027893066,
+                  -1.426010012626648,
+                  0.4804398715496063,
+                  -0.2690262496471405,
+                  -1.8982741832733154,
+                  0.7959604859352112,
+                  0.7959604859352112,
+                  2.814070224761963,
+                  5.08974027633667,
+                  3.749678373336792,
+                  0.2210487425327301,
+                  2.10187029838562,
+                  2.10187029838562,
+                  -0.33606165647506714,
+                  -0.33606165647506714,
+                  -0.3838214576244354,
+                  -0.3838214576244354,
+                  -0.7874063849449158,
+                  -0.7874063849449158,
+                  -0.404401034116745,
+                  -0.0447055883705616,
+                  -0.4291146695613861,
+                  -0.0447055883705616,
+                  -0.018550388514995575,
+                  -0.3411005437374115,
+                  -0.10044999420642853,
+                  -0.6784512400627136,
+                  -1.9621813297271729,
+                  -0.07472752034664154,
+                  0,
+                  0,
+                  -0.039417415857315063,
+                  -0.039417415857315063,
+                  0,
+                  -3.2216336833072186
+                ],
+                [
+                  0,
+                  -0.40815919637680054,
+                  -0.9339544177055359,
+                  0,
+                  -5.718677997589111,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2.6881461143493652,
+                  -1.819631576538086,
+                  -0.6595887541770935,
+                  2.162858486175537,
+                  4.69269323348999,
+                  -3.3420157432556152,
+                  -0.5617562532424927,
+                  -0.18488600850105286,
+                  -0.18488600850105286,
+                  -3.123894214630127,
+                  -1.831713080406189,
+                  -1.831713080406189,
+                  -0.5821629762649536,
+                  -0.5821629762649536,
+                  -0.4086645543575287,
+                  -0.2793755531311035,
+                  -0.9639806151390076,
+                  -0.12720587849617004,
+                  -0.12720587849617004,
+                  -5.840331077575684,
+                  -0.14982564747333527,
+                  -0.0002526192110963166,
+                  0,
+                  0,
+                  0,
+                  5.8950982093811035,
+                  5.8950982093811035,
+                  -0.3877229392528534,
+                  -0.3877229392528534,
+                  -0.7768017053604126,
+                  -0.7768017053604126,
+                  -0.5448467135429382,
+                  -0.08055084198713303,
+                  -0.7059392929077148,
+                  -0.08055084198713303,
+                  -0.053496163338422775,
+                  -0.5983478426933289,
+                  -0.22271940112113953,
+                  -0.8175700306892395,
+                  6.100670337677002,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.5009974505913177
+                ],
+                [
+                  0,
+                  -0.6197166442871094,
+                  -0.8003420233726501,
+                  0,
+                  -9.89242172241211,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4.417632102966309,
+                  -1.6792105436325073,
+                  -0.49677467346191406,
+                  -1.2681946754455566,
+                  -0.4279010593891144,
+                  -0.17770101130008698,
+                  -0.013931140303611755,
+                  -0.013931140303611755,
+                  -0.013931140303611755,
+                  -0.2515133023262024,
+                  -0.21423712372779846,
+                  -0.21423712372779846,
+                  -0.8386337161064148,
+                  -0.8472332954406738,
+                  -0.6466618180274963,
+                  -0.4192495048046112,
+                  -4.865146160125732,
+                  -0.22739416360855103,
+                  -0.22739416360855103,
+                  -0.4794265925884247,
+                  -0.07768664509057999,
+                  -0.02692718803882599,
+                  0,
+                  -0.00002094388946716208,
+                  -0.00002094388946716208,
+                  -0.2084953784942627,
+                  -0.2084953784942627,
+                  4.68396520614624,
+                  4.68396520614624,
+                  1.634572982788086,
+                  1.634572982788086,
+                  -0.0698573887348175,
+                  -0.7904298901557922,
+                  -0.7904298901557922,
+                  -0.7904298901557922,
+                  -1.079469919204712,
+                  0,
+                  -0.8721234202384949,
+                  -0.927690863609314,
+                  -0.6168529391288757,
+                  -0.004676437005400658,
+                  -0.004676437005400658,
+                  0,
+                  -0.030597707256674767,
+                  -0.030597707256674767,
+                  0,
+                  -2.737782643193799
+                ],
+                [
+                  0,
+                  -3.2148807048797607,
+                  -1.3995341062545776,
+                  0,
+                  -9.716480255126953,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4.568910598754883,
+                  -1.9946775436401367,
+                  -0.8555762767791748,
+                  -1.8472540378570557,
+                  -0.5695331692695618,
+                  -0.30124953389167786,
+                  -0.007480419706553221,
+                  -0.007480419706553221,
+                  -0.007480419706553221,
+                  -0.4437423646450043,
+                  -0.24326370656490326,
+                  -0.24326370656490326,
+                  -0.9621191024780273,
+                  -1.0968737602233887,
+                  -2.9276602268218994,
+                  -1.6777076721191406,
+                  5.789602279663086,
+                  -1.2067509889602661,
+                  -1.2067509889602661,
+                  -0.8440718650817871,
+                  -0.0653577670454979,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.09363524615764618,
+                  -0.09363524615764618,
+                  -4.292180061340332,
+                  -4.292180061340332,
+                  2.0954501628875732,
+                  2.0954501628875732,
+                  2.310265064239502,
+                  -1.300184726715088,
+                  2.600370168685913,
+                  -1.300184726715088,
+                  -0.0003778802929446101,
+                  3.9005532264709473,
+                  -0.000007267073215189157,
+                  -1.1774100065231323,
+                  -1.1150414943695068,
+                  -0.07193075865507126,
+                  -0.07193075865507126,
+                  0,
+                  -0.0653577670454979,
+                  -0.0653577670454979,
+                  -0.07410374283790588,
+                  -2.573789801620135
+                ],
+                [
+                  0,
+                  -0.44654580950737,
+                  11.240640640258789,
+                  -13.227965354919434,
+                  2.2512705326080322,
+                  -0.049576424062252045,
+                  -0.1458580046892166,
+                  -0.048311781138181686,
+                  -0.04703579843044281,
+                  -0.16339151561260223,
+                  -1.4631538391113281,
+                  0,
+                  0,
+                  -2.446833610534668,
+                  -0.14450111985206604,
+                  -0.5678050518035889,
+                  -0.5532079935073853,
+                  0,
+                  0,
+                  -0.4800739288330078,
+                  0,
+                  0,
+                  0,
+                  -2.465125799179077,
+                  -0.02442701905965805,
+                  0,
+                  -3.6745247840881348,
+                  -0.02442701905965805,
+                  -0.02442701905965805,
+                  -0.6727516651153564,
+                  -0.0656934529542923,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.8730571269989014,
+                  -1.8730571269989014,
+                  -7.324113845825195,
+                  -7.324113845825195,
+                  0.9094563126564026,
+                  -0.7864142060279846,
+                  -0.7864142060279846,
+                  -0.7864142060279846,
+                  -0.5378237366676331,
+                  0,
+                  0,
+                  -13.364063262939453,
+                  0,
+                  -0.6043038964271545,
+                  -0.6043038964271545,
+                  0,
+                  -0.005896386224776506,
+                  -0.005896386224776506,
+                  0,
+                  0.21918374259647933
+                ],
+                [
+                  0,
+                  -0.6632898449897766,
+                  -0.7772446274757385,
+                  -0.2576330602169037,
+                  2.988306760787964,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -8.209745407104492,
+                  0,
+                  -0.8965849280357361,
+                  -0.11716124415397644,
+                  -2.572856903076172,
+                  7.40441370010376,
+                  6.579860210418701,
+                  -5.203712463378906,
+                  -5.203712463378906,
+                  7.391467094421387,
+                  -0.006639330182224512,
+                  -0.006639330182224512,
+                  -0.030375823378562927,
+                  -1.9679027795791626,
+                  -0.001412735553458333,
+                  0,
+                  -1.6604888439178467,
+                  -0.001412735553458333,
+                  -0.001412735553458333,
+                  6.511007308959961,
+                  -6.907730579376221,
+                  -0.001412735553458333,
+                  0,
+                  -0.030375823378562927,
+                  -0.030375823378562927,
+                  0,
+                  0,
+                  -0.6554914116859436,
+                  -0.6554914116859436,
+                  -0.38918033242225647,
+                  -0.38918033242225647,
+                  -0.22096140682697296,
+                  0,
+                  0,
+                  -7.079711437225342,
+                  0,
+                  0,
+                  0,
+                  -0.48756974935531616,
+                  -2.9367458820343018,
+                  -0.872268557548523,
+                  -0.872268557548523,
+                  -7.079711437225342,
+                  0,
+                  0,
+                  -0.8358333110809326,
+                  -2.613364011946366
+                ],
+                [
+                  0,
+                  -0.6492522358894348,
+                  -3.128126621246338,
+                  -0.5043489336967468,
+                  3.239956855773926,
+                  -0.03654121607542038,
+                  -0.10486385971307755,
+                  -0.03387957066297531,
+                  -0.03196045011281967,
+                  -0.09388764202594757,
+                  -3.247959613800049,
+                  -0.012866507284343243,
+                  -0.0054191844537854195,
+                  -3.122885227203369,
+                  -0.372364342212677,
+                  -0.05960339307785034,
+                  -0.0735108032822609,
+                  0,
+                  0,
+                  -0.038739729672670364,
+                  0,
+                  0,
+                  -7.7543721199035645,
+                  11.124484062194824,
+                  -0.0223081037402153,
+                  0,
+                  -3.1344404220581055,
+                  -0.0223081037402153,
+                  -0.0223081037402153,
+                  -1.1034646034240723,
+                  -1.0778615474700928,
+                  -4.520297050476074,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.566744327545166,
+                  -1.566744327545166,
+                  -0.31680208444595337,
+                  -0.31680208444595337,
+                  -0.7789493799209595,
+                  0,
+                  0,
+                  -0.01280160527676344,
+                  -0.24516496062278748,
+                  0,
+                  0,
+                  -0.5733093023300171,
+                  0,
+                  -2.2480709552764893,
+                  2.2786545753479004,
+                  -0.01280160527676344,
+                  -0.1597990095615387,
+                  -0.1597990095615387,
+                  0,
+                  -0.10550914436777169
+                ],
+                [
+                  -0.7650678157806396,
+                  1.297945499420166,
+                  -2.881756067276001,
+                  -0.784724771976471,
+                  3.7515480518341064,
+                  -0.10512278974056244,
+                  -0.3680111765861511,
+                  -0.09446563571691513,
+                  -0.08357290923595428,
+                  -0.10427306592464447,
+                  -4.324185371398926,
+                  -0.13061754405498505,
+                  -0.055014196783304214,
+                  -3.054420232772827,
+                  -0.04165460169315338,
+                  -0.5268587470054626,
+                  -0.5971262454986572,
+                  -0.026134252548217773,
+                  -0.026134252548217773,
+                  -0.35945120453834534,
+                  -0.020102322101593018,
+                  -0.020102322101593018,
+                  -0.05223250389099121,
+                  -2.951737403869629,
+                  -7.102971076965332,
+                  -5.02316427230835,
+                  10.085671424865723,
+                  -2.0777015686035156,
+                  -2.0777015686035156,
+                  -0.8433079123497009,
+                  -0.5465186834335327,
+                  -0.012701181694865227,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.5489307641983032,
+                  -1.5489307641983032,
+                  -0.631694495677948,
+                  -0.631694495677948,
+                  -13.260878562927246,
+                  -0.10367918759584427,
+                  -2.5377895832061768,
+                  -0.10367918759584427,
+                  -11.675368309020996,
+                  -2.3350090980529785,
+                  -0.6232069134712219,
+                  -0.019860198721289635,
+                  0,
+                  -0.7168495655059814,
+                  -0.691450297832489,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.8771680494023499
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.9006108641624451,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.3006186485290527,
+                  0,
+                  -3.5624215602874756,
+                  2.025637626647949,
+                  -1.3161230087280273,
+                  -3.5751454830169678,
+                  0,
+                  0,
+                  0,
+                  -3.564836025238037,
+                  -0.10619259625673294,
+                  -0.10619259625673294,
+                  -3.579939842224121,
+                  -0.008759303949773312,
+                  -3.56209659576416,
+                  0,
+                  -0.6370240449905396,
+                  -3.56209659576416,
+                  -3.56209659576416,
+                  3.5537376403808594,
+                  10.694626808166504,
+                  -3.5796151161193848,
+                  -0.5637966990470886,
+                  -3.5624215602874756,
+                  -3.5624215602874756,
+                  -0.05635344609618187,
+                  -0.05635344609618187,
+                  -0.3855552077293396,
+                  -0.3855552077293396,
+                  -3.060011386871338,
+                  -3.060011386871338,
+                  -0.4590161144733429,
+                  0,
+                  0,
+                  -1.754562258720398,
+                  -0.24044163525104523,
+                  0,
+                  0,
+                  0,
+                  -0.8946168422698975,
+                  -0.008759303949773312,
+                  0,
+                  -1.754562258720398,
+                  -3.060011386871338,
+                  -3.060011386871338,
+                  0,
+                  -1.1056465647619427
+                ],
+                [
+                  0,
+                  0,
+                  -2.5876026153564453,
+                  -0.35123971104621887,
+                  3.1371002197265625,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -3.940141439437866,
+                  0,
+                  -4.266399383544922,
+                  8.360444068908691,
+                  -10.915214538574219,
+                  -4.425869464874268,
+                  -6.289384841918945,
+                  -0.04051420837640762,
+                  -0.04051420837640762,
+                  -4.3218674659729,
+                  -1.9208868741989136,
+                  -1.9208868741989136,
+                  -0.4249230921268463,
+                  -2.458547592163086,
+                  -0.451297402381897,
+                  0,
+                  -2.728268623352051,
+                  -0.451297402381897,
+                  -0.451297402381897,
+                  -6.484452724456787,
+                  -4.078581809997559,
+                  -0.6569077968597412,
+                  -0.09931493550539017,
+                  -0.1975945383310318,
+                  -0.1975945383310318,
+                  -1.9007986783981323,
+                  -1.9007986783981323,
+                  -1.3482732772827148,
+                  -1.3482732772827148,
+                  -1.4304534196853638,
+                  -1.4304534196853638,
+                  -0.5238416194915771,
+                  -0.023952094838023186,
+                  -0.023952094838023186,
+                  -0.8601160645484924,
+                  -0.42000991106033325,
+                  0,
+                  0,
+                  -2.6825194358825684,
+                  0,
+                  -0.30101966857910156,
+                  -0.09032907336950302,
+                  -0.8304364085197449,
+                  -0.006494427099823952,
+                  -0.006494427099823952,
+                  -4.04828405380249,
+                  -0.4090751285746499
+                ],
+                [
+                  -0.10677115619182587,
+                  -0.10677115619182587,
+                  -1.2764793634414673,
+                  -0.22286885976791382,
+                  1.031563401222229,
+                  -0.05359960347414017,
+                  -0.16037407517433167,
+                  -0.05344880372285843,
+                  -0.05329006537795067,
+                  -0.21016915142536163,
+                  -0.12149909883737564,
+                  -0.09169788658618927,
+                  -0.05842449888586998,
+                  -1.2112326622009277,
+                  -0.6489984393119812,
+                  -0.14190338551998138,
+                  -0.026511676609516144,
+                  0,
+                  0,
+                  -0.1116127297282219,
+                  0,
+                  0,
+                  -0.4448211193084717,
+                  -1.2366050481796265,
+                  -0.05826711282134056,
+                  0,
+                  -1.6785509586334229,
+                  -0.05826711282134056,
+                  -0.05826711282134056,
+                  -0.3271535336971283,
+                  -0.10079183429479599,
+                  -0.40836796164512634,
+                  0,
+                  -0.037898629903793335,
+                  -0.037898629903793335,
+                  0,
+                  0,
+                  6.460566997528076,
+                  6.460566997528076,
+                  -7.093827724456787,
+                  -7.093827724456787,
+                  0.02433355338871479,
+                  -0.5628966689109802,
+                  -0.5628966689109802,
+                  -0.7923113703727722,
+                  -0.6150774359703064,
+                  0,
+                  0,
+                  -14.14348030090332,
+                  0,
+                  -0.39608949422836304,
+                  0,
+                  -0.18752627074718475,
+                  -0.02439097873866558,
+                  -0.02439097873866558,
+                  0,
+                  0.21412679909157892
+                ],
+                [
+                  0,
+                  -1.4121522903442383,
+                  -4.338396072387695,
+                  0,
+                  -2.328401565551758,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.017995834350586,
+                  0,
+                  -0.0795922577381134,
+                  -1.6839855909347534,
+                  -0.9240390062332153,
+                  -0.27161380648612976,
+                  0,
+                  0,
+                  0,
+                  -0.19779101014137268,
+                  0,
+                  0,
+                  -0.8028245568275452,
+                  -0.7141416072845459,
+                  -2.669311046600342,
+                  -0.42729440331459045,
+                  5.751017093658447,
+                  -2.164069890975952,
+                  -2.164069890975952,
+                  -0.8819531798362732,
+                  -0.215541273355484,
+                  -0.7141416072845459,
+                  0,
+                  -0.05396775156259537,
+                  -0.05396775156259537,
+                  0,
+                  0,
+                  -2.061133623123169,
+                  -2.061133623123169,
+                  -9.762621879577637,
+                  -9.762621879577637,
+                  8.63182544708252,
+                  -0.9358217716217041,
+                  -1.9824832677841187,
+                  -1.5999937057495117,
+                  7.221095561981201,
+                  -0.9435519576072693,
+                  -0.08919071406126022,
+                  -19.4979248046875,
+                  0,
+                  -0.7141416072845459,
+                  0,
+                  -0.5759179592132568,
+                  -0.09232772141695023,
+                  -0.09232772141695023,
+                  -0.011641556397080421,
+                  -1.7733722502733014
+                ],
+                [
+                  -0.10184558480978012,
+                  -0.10184558480978012,
+                  3.252836227416992,
+                  -3.3067917823791504,
+                  1.9533144235610962,
+                  -0.04925937205553055,
+                  -0.171938955783844,
+                  -0.04424533620476723,
+                  -0.03913430497050285,
+                  -0.048983242362737656,
+                  -11.252042770385742,
+                  -0.06183258071541786,
+                  -5.920410633087158,
+                  1.706353783607483,
+                  10.739603996276855,
+                  -0.7912519574165344,
+                  -0.7128925919532776,
+                  -0.04962468147277832,
+                  -0.04962468147277832,
+                  -0.6518296003341675,
+                  -0.04652426764369011,
+                  -0.04652426764369011,
+                  -0.23385801911354065,
+                  -0.18687957525253296,
+                  -0.40982159972190857,
+                  -0.2446996420621872,
+                  -6.525467872619629,
+                  -0.0923389419913292,
+                  -0.0923389419913292,
+                  -3.3276052474975586,
+                  -2.6783828735351562,
+                  -0.22092171013355255,
+                  -0.020222574472427368,
+                  -0.07651733607053757,
+                  -0.07651733607053757,
+                  -0.028092898428440094,
+                  -0.028092898428440094,
+                  -5.112955570220947,
+                  -5.112955570220947,
+                  6.80538272857666,
+                  6.80538272857666,
+                  0.24543780088424683,
+                  0.22230687737464905,
+                  0.22230687737464905,
+                  -0.3354635238647461,
+                  -3.6172258853912354,
+                  0,
+                  -0.10706182569265366,
+                  13.258109092712402,
+                  -0.6053673624992371,
+                  -0.14085644483566284,
+                  -0.006157176569104195,
+                  -0.505197286605835,
+                  -2.467484951019287,
+                  -2.467484951019287,
+                  -5.765251636505127,
+                  -4.82719450307258
+                ],
+                [
+                  0,
+                  0,
+                  -0.2649643123149872,
+                  -0.022669104859232903,
+                  -0.4241279363632202,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.429138422012329,
+                  0,
+                  -0.8873284459114075,
+                  -0.4420332610607147,
+                  -0.5238800048828125,
+                  0.6462318897247314,
+                  -0.8104569911956787,
+                  -0.2556685209274292,
+                  -0.2556685209274292,
+                  0.6462177038192749,
+                  -0.018899718299508095,
+                  -0.018899718299508095,
+                  -0.480403333902359,
+                  -0.11939142644405365,
+                  -0.6193771958351135,
+                  0,
+                  -0.28789639472961426,
+                  -0.6193771958351135,
+                  -0.6193771958351135,
+                  1.164398193359375,
+                  -1.205191731452942,
+                  -0.617523193359375,
+                  -0.11607490479946136,
+                  -0.2930740714073181,
+                  -0.2930740714073181,
+                  -0.009326114319264889,
+                  -0.009326114319264889,
+                  -0.3478989899158478,
+                  -0.3478989899158478,
+                  -1.3859199285507202,
+                  -1.3859199285507202,
+                  -0.37164056301116943,
+                  -0.9463388323783875,
+                  -0.9463388323783875,
+                  6.669613838195801,
+                  -0.08301915973424911,
+                  0,
+                  0,
+                  -0.06855188310146332,
+                  -0.9796332120895386,
+                  -0.11939142644405365,
+                  0,
+                  7.615950107574463,
+                  -0.20713099837303162,
+                  -0.20713099837303162,
+                  -0.418368399143219,
+                  -0.9443561028845021
+                ],
+                [
+                  -0.009732683189213276,
+                  -0.009732683189213276,
+                  -0.1820618063211441,
+                  -0.04811578989028931,
+                  0.9511426091194153,
+                  -0.007498652208596468,
+                  -0.026746734976768494,
+                  -0.006764432415366173,
+                  -0.005997496657073498,
+                  -0.007343456614762545,
+                  -3.0282862186431885,
+                  -0.003044480923563242,
+                  -0.2732093632221222,
+                  -1.2103773355484009,
+                  -0.08129946887493134,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4.098525047302246,
+                  -0.001874755253084004,
+                  -0.9326807856559753,
+                  0,
+                  -0.3425118029117584,
+                  -0.9326807856559753,
+                  -0.9326807856559753,
+                  -1.2133698463439941,
+                  -1.2133698463439941,
+                  6.551074028015137,
+                  -0.23134735226631165,
+                  -0.2551635503768921,
+                  -0.2551635503768921,
+                  0,
+                  0,
+                  -0.18845361471176147,
+                  -0.18845361471176147,
+                  -0.2496841847896576,
+                  -0.2496841847896576,
+                  -0.12834858894348145,
+                  -0.007919754832983017,
+                  -0.007919754832983017,
+                  -0.007919754832983017,
+                  -0.04983389750123024,
+                  0,
+                  0,
+                  -0.1857849806547165,
+                  0,
+                  3.752127170562744,
+                  -3.6341066360473633,
+                  0,
+                  -0.058430738747119904,
+                  -0.058430738747119904,
+                  -0.012162810191512108,
+                  -1.0668588250613529
+                ],
+                [
+                  -0.017682692036032677,
+                  -6.237619400024414,
+                  -0.26595747470855713,
+                  -0.1141427755355835,
+                  1.7550913095474243,
+                  -0.014781579375267029,
+                  -0.05827869474887848,
+                  -0.01354240532964468,
+                  -0.012097320519387722,
+                  -0.013087273575365543,
+                  -6.281950950622559,
+                  -0.02955055609345436,
+                  -0.058437447994947433,
+                  -3.5218846797943115,
+                  -0.025761514902114868,
+                  -0.05578235909342766,
+                  -0.054164063185453415,
+                  -0.00721014104783535,
+                  -0.00721014104783535,
+                  -0.037969063967466354,
+                  -0.005670908372849226,
+                  -0.005670908372849226,
+                  -0.0508023202419281,
+                  -0.12237263470888138,
+                  8.565779685974121,
+                  5.71082878112793,
+                  0.5818374156951904,
+                  2.85490345954895,
+                  2.85490345954895,
+                  -3.4684066772460938,
+                  -3.4264838695526123,
+                  -3.2764625549316406,
+                  -0.8040527105331421,
+                  -0.038916394114494324,
+                  -0.038916394114494324,
+                  0,
+                  0,
+                  -0.11582518368959427,
+                  -0.11582518368959427,
+                  -0.3540603220462799,
+                  -0.3540603220462799,
+                  -0.7854906916618347,
+                  -0.07546817511320114,
+                  -0.08221585303544998,
+                  -0.07546817511320114,
+                  -0.5997002720832825,
+                  -0.004877436440438032,
+                  -0.0003570581029634923,
+                  -0.2504444718360901,
+                  0,
+                  -0.055691082030534744,
+                  -0.055691082030534744,
+                  0,
+                  -0.03975972533226013,
+                  -0.03975972533226013,
+                  0,
+                  -2.3348060419357664
+                ],
+                [
+                  -0.0038108564913272858,
+                  -0.31115347146987915,
+                  -0.9905921220779419,
+                  -0.27087149024009705,
+                  1.7199782133102417,
+                  -0.003144535468891263,
+                  -0.012397823855280876,
+                  -0.002880921820178628,
+                  -0.002573503879830241,
+                  -0.002784100128337741,
+                  -13.165867805480957,
+                  -0.029373925179243088,
+                  2.5527377128601074,
+                  -0.6688770055770874,
+                  -1.4871059656143188,
+                  -1.1458563804626465,
+                  -0.09256617724895477,
+                  -0.042384520173072815,
+                  -0.042384520173072815,
+                  -0.9483189582824707,
+                  -0.03332073614001274,
+                  -0.03332073614001274,
+                  2.649493932723999,
+                  -1.8629660606384277,
+                  2.6860153675079346,
+                  -0.43391215801239014,
+                  -4.911677360534668,
+                  3.153587818145752,
+                  3.153587818145752,
+                  1.3614882230758667,
+                  3.3974363803863525,
+                  5.079207420349121,
+                  0.24471664428710938,
+                  4.498124599456787,
+                  4.498124599456787,
+                  0,
+                  0,
+                  -0.974042534828186,
+                  -0.974042534828186,
+                  2.024967908859253,
+                  2.024967908859253,
+                  -1.01412832736969,
+                  -0.3301239311695099,
+                  -0.3301239311695099,
+                  -0.3301239311695099,
+                  -0.2673916816711426,
+                  0,
+                  0,
+                  -1.088630199432373,
+                  0,
+                  -1.8195759057998657,
+                  0,
+                  0,
+                  4.760130405426025,
+                  4.760130405426025,
+                  -1.9077398777008057,
+                  -5.740661499824229
+                ],
+                [
+                  -0.003055107081308961,
+                  -0.003055107081308961,
+                  -0.5726335644721985,
+                  -0.18710516393184662,
+                  1.3562554121017456,
+                  -0.0024875218514353037,
+                  -0.009683452546596527,
+                  -0.0022742219734936953,
+                  -0.0020295828580856323,
+                  -0.0022326777689158916,
+                  -3.5408194065093994,
+                  -0.0011295033618807793,
+                  -0.5291048288345337,
+                  -0.043214235454797745,
+                  4.760746002197266,
+                  -0.5853453874588013,
+                  -0.6422602534294128,
+                  -0.023459702730178833,
+                  -0.023459702730178833,
+                  -0.48891347646713257,
+                  -0.03178851306438446,
+                  -0.03178851306438446,
+                  0,
+                  -0.5257310271263123,
+                  -0.07465139776468277,
+                  -0.04644762724637985,
+                  -0.6969309449195862,
+                  -0.01987604796886444,
+                  -0.01987604796886444,
+                  -0.7308534979820251,
+                  -0.3389851152896881,
+                  -0.01987604796886444,
+                  -0.004125341773033142,
+                  0,
+                  0,
+                  -0.010110498405992985,
+                  -0.010110498405992985,
+                  -0.31842461228370667,
+                  -0.31842461228370667,
+                  -0.5253726840019226,
+                  -0.5253726840019226,
+                  -0.2358100414276123,
+                  -0.1054668202996254,
+                  -0.1054668202996254,
+                  -0.1054668202996254,
+                  -0.09940827637910843,
+                  0,
+                  0,
+                  -0.5507950186729431,
+                  -0.44143763184547424,
+                  -0.1163659617304802,
+                  -0.1163659617304802,
+                  0,
+                  0,
+                  0,
+                  -0.5291048288345337,
+                  -1.1353524603240592
+                ],
+                [
+                  -0.031340401619672775,
+                  -0.031340401619672775,
+                  -8.180083274841309,
+                  -0.018024371936917305,
+                  0.7669440507888794,
+                  -0.0189721267670393,
+                  -0.07480058073997498,
+                  -0.01738164946436882,
+                  -0.01552688516676426,
+                  -0.026652589440345764,
+                  -13.458206176757812,
+                  -0.25571319460868835,
+                  3.080950975418091,
+                  -0.8320741653442383,
+                  -1.643384337425232,
+                  -0.8755713701248169,
+                  -0.9270563721656799,
+                  -0.06554526090621948,
+                  -0.06554526090621948,
+                  -0.6194425821304321,
+                  -0.05416866019368172,
+                  -0.05416866019368172,
+                  -0.43138420581817627,
+                  -0.5972489714622498,
+                  -0.08694067597389221,
+                  0,
+                  -4.106588363647461,
+                  -0.08694067597389221,
+                  -0.08694067597389221,
+                  -2.7244157791137695,
+                  -2.266000747680664,
+                  -0.08694067597389221,
+                  -0.022377023473381996,
+                  -0.43138420581817627,
+                  -0.43138420581817627,
+                  -0.02113824337720871,
+                  -0.02113824337720871,
+                  3.033649444580078,
+                  3.033649444580078,
+                  6.97238302230835,
+                  6.97238302230835,
+                  -0.07320894300937653,
+                  0.0035438849590718746,
+                  0.0035438849590718746,
+                  0.0035438849590718746,
+                  -4.035189628601074,
+                  0,
+                  0,
+                  13.859375953674316,
+                  0,
+                  -0.22814519703388214,
+                  -0.22814519703388214,
+                  0,
+                  -1.5874011516571045,
+                  -1.5874011516571045,
+                  3.850637197494507,
+                  -6.439679954510427
+                ],
+                [
+                  0,
+                  -0.0940958634018898,
+                  -7.3505473136901855,
+                  0,
+                  -0.0029276027344167233,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -14.094196319580078,
+                  0,
+                  -1.7552942037582397,
+                  -2.018105983734131,
+                  -0.23861749470233917,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.4911385774612427,
+                  -0.40324410796165466,
+                  0.20736393332481384,
+                  -0.04405612871050835,
+                  -0.04405612871050835,
+                  -1.3753308057785034,
+                  -1.3753308057785034,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -3.566725492477417,
+                  -3.566725492477417,
+                  6.380180358886719,
+                  6.380180358886719,
+                  1.6683969497680664,
+                  0.025203580036759377,
+                  0.025203580036759377,
+                  0.025203580036759377,
+                  6.563492774963379,
+                  0,
+                  -0.9105836153030396,
+                  12.411027908325195,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.3753308057785034,
+                  -1.3753308057785034,
+                  -1.7552942037582397,
+                  -7.045539915124287
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "zh",
+        "我是誰"
+      ],
+      [
+        "zh",
+        "我叫做什麼"
+      ],
+      [
+        "zh",
+        "我叫啥"
+      ],
+      [
+        "zh",
+        "我叫做甚麼"
+      ],
+      [
+        "zh",
+        "我在"
+      ],
+      [
+        "zh",
+        "我在"
+      ],
+      [
+        "zh",
+        "我在"
+      ],
+      [
+        "zh",
+        "我在哪裡"
+      ],
+      [
+        "zh",
+        "我在"
+      ],
+      [
+        "zh",
+        "我在"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "zh": {
+        "使用說明書": [
+          {
+            "answer": "#help"
+          }
+        ],
+        "招呼-早安": [
+          {
+            "answer": "早安R"
+          },
+          {
+            "answer": "早ㄤᐠ( ᐛ )ᐟ"
+          },
+          {
+            "answer": "早R"
+          },
+          {
+            "answer": "早R(ﾟ∀ﾟ)"
+          },
+          {
+            "answer": "歐嗨喲"
+          }
+        ],
+        "招呼-晚安": [
+          {
+            "answer": "恩恩晚安"
+          },
+          {
+            "answer": "晚安安安安安安安安安安ww"
+          },
+          {
+            "answer": "晚安安安"
+          }
+        ],
+        "招呼-午安": [
+          {
+            "answer": "午安...?"
+          },
+          {
+            "answer": "午午午安…？"
+          }
+        ],
+        "招呼-日常": [
+          {
+            "answer": "嗨ww"
+          },
+          {
+            "answer": "嗨嗨"
+          },
+          {
+            "answer": "嗨嗨ᐠ( ᐛ )ᐟ"
+          }
+        ],
+        "詢問-我-名字": [
+          {
+            "answer": "#name叫做#name哦"
+          }
+        ],
+        "詢問-我-性別": [
+          {
+            "answer": "#name是#gender哦！"
+          }
+        ],
+        "詢問-我-年齡": [
+          {
+            "answer": "#name今年#age歲哦！"
+          }
+        ],
+        "詢問-我-生日": [
+          {
+            "answer": "#name的生日是#birthday哦！"
+          }
+        ],
+        "詢問-我-位置": [
+          {
+            "answer": "#name住在#location哦！"
+          }
+        ],
+        "詢問-我-身分": [
+          {
+            "answer": "#name是#role哦！"
+          }
+        ],
+        "詢問-我-愛好": [
+          {
+            "answer": "#name喜歡#favorite哦！"
+          }
+        ],
+        "詢問-我-事情": [
+          {
+            "answer": "#name正在#doing哦！"
+          }
+        ],
+        "告訴-自己-名字": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "告訴-自己-性別": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "告訴-自己-年齡": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "告訴-自己-位置": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "告訴-自己-生日": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "告訴-自己-身分": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "告訴-自己-愛好": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "告訴-自己-事情": [
+          {
+            "answer": "hummm  #user_Data"
+          }
+        ],
+        "詢問-自己-名字": [
+          {
+            "answer": "#name記得你叫做#Reply_User_Data哦"
+          }
+        ],
+        "詢問-自己-性別": [
+          {
+            "answer": "#name記得你是 #Reply_User_Data哦"
+          }
+        ],
+        "詢問-自己-年齡": [
+          {
+            "answer": "#name記得你今年#Reply_User_Data哦"
+          }
+        ],
+        "詢問-自己-位置": [
+          {
+            "answer": "#name記得你在#Reply_User_Data哦"
+          }
+        ],
+        "詢問-自己-生日": [
+          {
+            "answer": "#name記得你的生日是#Reply_User_Data哦"
+          }
+        ],
+        "詢問-自己-身分": [
+          {
+            "answer": "#name記得你是#Reply_User_Data哦"
+          }
+        ],
+        "詢問-自己-愛好": [
+          {
+            "answer": "#name記得你喜歡#Reply_User_Data哦"
+          }
+        ],
+        "詢問-自己-事情": [
+          {
+            "answer": "#name記得你正在#Reply_User_Data哦"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
