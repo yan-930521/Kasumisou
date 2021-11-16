@@ -3,7 +3,7 @@ a discord nlp bot
 
 # Warn!
 this repository is base on replit !!!
-( use @replit/database to save user's data )
+( using @replit/database to save user's data )
 
 # package
 - @replit/database@2.0.1
