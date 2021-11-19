@@ -1,3 +1,7 @@
+/**
+ * Copyright 2021 yan-930521  All Rights Reserved.
+ */
+
 const express = require('express');
 const Discord = require('discord.js');
 const  { NlpManager }  =  require ('node-nlp') ;
